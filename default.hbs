@@ -7,10 +7,12 @@
 	<meta name="google-site-verification" content="B15e0mXMmJ05_gBsO4vuk3O50nC5Ym2raCyUyRJW2qI" />
 	
 	{{! Page Meta }}
-	<title>Marc Charbonneau's Blog</title>
+	
 	{{#if post}}
+	<title>{{meta_title}}</title>
 	<meta name="keywords" content="{{#each post.tags}}{{name}},{{/each}}">
 	{{else}}
+	<title>Marc Charbonneau's Blog</title>
 	<meta name="keywords" content="cocoa, mbcharbonneau, objective-c, osx, portland">
 	{{/if}}
 
