@@ -2,7 +2,7 @@
 @import 'general';
 
 // dimens
-$sidebarWidth: 250px;
+$sidebarWidth: 275px;
 
 // colors
 $gray: #4a4a4a;
@@ -35,7 +35,7 @@ a {
 	-webkit-transform: translateZ(0);
 
 	.title {
-		font-size: 30px;
+		font-size: 24px;
 		color: white;
 		text-decoration: none;
 	}
@@ -59,11 +59,10 @@ a {
 
 	.logo {
 		display: block;
-		width: 100%;
 		max-width: $sidebarWidth;
 		height: auto;
 		background-size: contain;
-		margin: 0 auto 20px auto;
+		margin: 0 auto 10px auto;
 		background: no-repeat;
 	}
 
