@@ -156,7 +156,6 @@ module.exports = function(grunt) {
 		},
 		githubAsset: {
 			options: {
-				credentials: grunt.file.readJSON('credentials.json'),
 				repo: 'git@github.com:Bartinger/phantom.git',
 				file: 'phantom.zip'
 			}
