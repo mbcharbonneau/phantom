@@ -3,3 +3,7 @@ node_modules/
 dist/
 
 *.sublime-*
+phantom.zip
+
+.ruby-version
+credentials.json
